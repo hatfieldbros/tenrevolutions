@@ -1,10 +1,3 @@
-##### Allow cross origin request for CS171 hw troubleshooting #####
-<FilesMatch "\.(json)$">
-  <IfModule mod_headers.c>
-		Access-Control-Allow-Origin: "*"
-	</IfModule>
-</FilesMatch>
-
 #custom errors
 ErrorDocument 404 /tenrevolutions/404.php
 
