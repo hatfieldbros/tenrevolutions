@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+	   viewBox="0 0 500 500"
+	   width="400px" 
+	   height="400px">
+
+	<text id="1" x="50" y="445" style="font-family:Geneva;font-size:20;fill:white">1. Trisect all angles. (Click on vertices)</text>
+ 	
+	<text x="50" y="470" style="font-family:Geneva;font-size:20;fill:white" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="animate_angle_c.end" fill="freeze" />
+		2. See inner vertices.
+	</text>
+	
+	<text x="50" y="495" style="font-family:Geneva;font-size:20;fill:white" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="animate_angle_c.end + 8s" fill="freeze" />
+		3. Connect vertices.
+	</text>
+	
+	<polygon points="130,70 50,390 400,410" style="fill:none;stroke:red;stroke-width:5"/>
+
+	<circle id="trisect_angle_a" cx="130" cy="70" r="10" fill="blue" />	
+	<circle id="trisect_angle_b" cx="50" cy="390" r="10" fill="blue" />
+	<circle id="trisect_angle_c" cx="400" cy="410" r="10" fill="blue" />
+	
+	<!-- A lines -->
+	<line x1="130" y1="70" style="stroke:blue;stroke-width:2" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="trisect_angle_a.click" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="trisect_angle_a.click" dur="4s" fill="freeze" from="130" to="170"/>
+		<animate attributeName="y2" attributeType="XML" begin="trisect_angle_a.click" dur="4s" fill="freeze" from="70" to="440"/>
+	</line>
+	<line x1="130" y1="70" style="stroke:blue;stroke-width:2" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="trisect_angle_a.click" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="trisect_angle_a.click" dur="4s" fill="freeze" from="130" to="300"/>
+		<animate attributeName="y2" attributeType="XML" begin="trisect_angle_a.click" dur="4s" fill="freeze" from="70" to="440"/>
+	</line>
+	
+<!-- B lines -->
+	<line x1="50" y1="390" style="stroke:blue;stroke-width:2" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="trisect_angle_b.click" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="trisect_angle_b.click" dur="4s" fill="freeze" from="50" to="350"/>
+		<animate attributeName="y2" attributeType="XML" begin="trisect_angle_b.click" dur="4s" fill="freeze" from="390" to="270"/>
+	</line>
+	<line x1="50" y1="390" style="stroke:blue;stroke-width:2" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="trisect_angle_b.click" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="trisect_angle_b.click" dur="4s" fill="freeze" from="50" to="250"/>
+		<animate attributeName="y2" attributeType="XML" begin="trisect_angle_b.click" dur="4s" fill="freeze" from="390" to="150"/>
+	</line>
+
+	<!-- C lines -->
+	<line x1="400" y1="410" style="stroke:blue;stroke-width:2" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="trisect_angle_c.click" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="trisect_angle_c.click" dur="4s" fill="freeze" from="400" to="50"/>
+		<animate attributeName="y2" attributeType="XML" begin="trisect_angle_c.click" dur="4s" fill="freeze" from="410" to="280"/>
+	</line>
+	<line x1="400" y1="410" x2="150" y2="270" style="stroke:blue;stroke-width:2;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="trisect_angle_c.click" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="trisect_angle_c.click" dur="4s" fill="freeze" from="400" to="70"/>
+		<animate id="animate_angle_c" attributeName="y2" attributeType="XML" begin="trisect_angle_c.click" dur="4s" fill="freeze" from="410" to="160"/>
+	</line>
+
+<!--Inner Vertices-->
+
+	<circle cx="152" cy="269" r="10" fill="yellow" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="animate_angle_c.end + 2s" fill="freeze" />
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="animate_angle_c.end + 2s" dur="5s" />
+	</circle>
+	<circle cx="193" cy="333" r="10" fill="yellow" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="animate_angle_c.end + 2s" fill="freeze" />
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="animate_angle_c.end + 2s" dur="5s" />
+	</circle>
+	<circle cx="225" cy="277" r="10" fill="yellow" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="animate_angle_c.end + 2s" fill="freeze" />
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="animate_angle_c.end + 2s" dur="5s" />
+	</circle>
+
+<!-- Equilateral Triangle -->
+
+	<polygon stroke="yellow" visibility="hidden" stroke-width="3" fill="none" points="152,269 193,333, 225,277">
+		<set attributeName="visibility" to="visible" begin="animate_angle_c.end + 8s" fill="freeze"/>
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="animate_angle_c.end + 8s" dur="5s" />
+	</polygon>
+</svg>

@@ -1,0 +1,347 @@
+<?xml version="1.0" standalone="no"?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="410px" 
+	height="310px"
+	viewbox="0 0 410 310"
+	version="1.1">
+
+  <style type="text/css">
+  </style>
+  
+<g>
+
+<rect id="fig1" x="5" y="5" width="400" height="300"
+   style="fill:#0D58A6;stroke:white;stroke-width:5;
+   stroke-opacity:0.9"/>
+
+<g>
+	<polygon fill="red" opacity="0.2" stroke-width="2" points="50,290 120,30 160,30 230,290 190,290 170,210 110,210 90,290" />
+	<polygon fill="#0A64A4" points="120,170 140,100 160,170 120,170" />
+</g>
+
+<g id="outline" style="stroke:yellow;stroke-width:5;stroke-linecap:round;opacity:0.7">
+	<line x1="50" y1="290" x2="120" y2="30" />
+	<line x1="120" y1="30" x2="160" y2="30" />
+	<line x1="160" y1="30" x2="230" y2="290" />
+	<line x1="230" y1="290" x2="190" y2="290" />
+	<line x1="190" y1="290" x2="140" y2="100" />
+	<line x1="140" y1="100" x2="90" y2="290" />
+	<line x1="90" y1="290" x2="50" y2="290" />
+	<line x1="70" y1="210" x2="210" y2="210" />
+	<line x1="80" y1="170" x2="200" y2="170" />
+	<line x1="190" y1="290" x2="140" y2="100" />
+
+</g>
+
+<!--faces-->
+<g>
+	<polygon fill="red" opacity="0" stroke-width="2" points="50,290 70,210 110,210 90,290" >
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click" dur="0.2" fill="freeze" />
+	</polygon>
+	<polygon fill="red" opacity="0" stroke-width="2" points="70,210 110,210 120,170 80,170" >
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+0.4" dur="0.2" fill="freeze" />
+	</polygon>
+	<polygon fill="red" opacity="0" stroke-width="2" points="120,170 80,170 120,30, 160,30 200,170 160,170 140,100" >
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+0.8" dur="0.2" fill="freeze" />
+	</polygon>
+	<polygon fill="red" opacity="0" stroke-width="2" points="160,170 200,170 210,210 170,210" >
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+1.2" dur="0.2" fill="freeze" />
+	</polygon>
+	<polygon fill="red" opacity="0" stroke-width="2" points="210,210 230,290 190,290 170,210" >
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+1.6" dur="0.2" fill="freeze" />
+	</polygon>
+	<polygon fill="red" opacity="0" stroke-width="2" points="160,170 170,210 110,210 120,170" >
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+2" dur="0.2" fill="freeze" />
+	</polygon>
+</g>
+
+<g id="edges_line_flash">
+	<line x1="50" y1="290" x2="70" y2="210" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+0.2" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+0.2" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="70" y1="210" x2="80" y2="170" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+0.4" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+0.4" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+0.6" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+0.6" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="80" y1="170" x2="120" y2="30" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+0.8" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+0.8" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+1.0" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+1.0" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="120" y1="30" x2="160" y2="30" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+1.2" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+1.2" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+1.4" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+1.4" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="160" y1="30" x2="200" y2="170" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+1.6" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+1.6" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+1.8" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+1.8" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="200" y1="170" x2="210" y2="210" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+2.0" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+2.0" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+2.2" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+2.2" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="210" y1="210" x2="230" y2="290" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+2.4" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+2.4" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+2.6" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+2.6" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="230" y1="290" x2="190" y2="290" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+2.8" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+2.8" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+3.0" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+3.0" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="190" y1="290" x2="170" y2="210" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+3.2" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+3.2" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+3.4" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+3.4" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="170" y1="210" x2="160" y2="170" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+3.6" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+3.6" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+3.8" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+3.8" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="160" y1="170" x2="140" y2="100" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+4.0" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+4.0" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+4.2" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+4.2" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="140" y1="100" x2="120" y2="170" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+4.4" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+4.4" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+4.6" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+4.6" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="120" y1="170" x2="110" y2="210" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+4.8" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+4.8" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+5.0" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+5.0" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="110" y1="210" x2="90" y2="290" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+5.2" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+5.2" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+5.4" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+5.4" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="90" y1="290" x2="50" y2="290" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+5.6" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+5.6" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+5.8" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+5.8" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="70" y1="210" x2="110" y2="210" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+6.0" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+6.0" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+6.2" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+6.2" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="110" y1="210" x2="170" y2="210" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+6.4" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+6.4" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+6.6" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+6.6" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="170" y1="210" x2="210" y2="210" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+6.8" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+6.8" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+7.0" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+7.0" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="200" y1="170" x2="160" y2="170" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+7.2" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+7.2" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+7.4" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+7.4" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="160" y1="170" x2="120" y2="170" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+7.6" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+7.6" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+7.8" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+7.8" dur="0.2s" fill="freeze"/>
+	</line>
+	<line x1="120" y1="170" x2="80" y2="170" stroke-linecap="round">
+		<animate attributeName="stroke" attributeType="CSS" from="#0D58A6" to="white" begin="edges.click+8.0" dur="0.2s"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="5" to="20" begin="edges.click+8.0" dur="0.2s"/>
+		<animate attributeName="stroke" attributeType="CSS" from="white" to="#14D100" begin="edges.click+8.2" dur="0.2s" fill="freeze"/>
+		<animate attributeName="stroke-width" attributeType="CSS" from="20" to="7" begin="edges.click+8.2" dur="0.2s" fill="freeze"/>
+	</line>
+
+</g>
+
+<g>
+	<circle cx="50" cy="290" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click" dur="0.2s" fill="freeze"/>
+	</circle>
+	<circle cx="120" cy="30" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+0.4" dur="0.2s" fill="freeze"/>
+	</circle>
+	<circle cx="90" cy="290" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+0.8" dur="0.2s" fill="freeze"/>
+	</circle>
+	<circle cx="140" cy="100" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+1.2" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="160" cy="30" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+1.6" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="230" cy="290" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+2" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="80" cy="170" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+2.4" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="120" cy="170" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+2.8" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="160" cy="170" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+3.2" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="200" cy="170" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+3.6" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="70" cy="210" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+4" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="110" cy="210" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+4.4" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="170" cy="210" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+4.8" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="210" cy="210" r="7" fill="yellow" opacity="0">
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+5.2" dur="0.2" fill="freeze"/>
+	</circle>
+	<circle cx="190" cy="290" r="7" fill="yellow" opacity="0">	
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="vertices.click+5.6" dur="0.2" fill="freeze" />
+	</circle>
+</g>
+
+<g id="edges_counter_number"
+	style="
+		font-size:40pt;
+		fill:white;
+		font-family:sans-serif;
+		font-variant:small-caps;">
+		
+	<text x="250" y="50" style="font-size:20pt;">Edges</text>
+	
+	<rect id="edges" x="240" y="10" width="160" height="60" style="fill:#0D58A6;stroke:white;stroke-width:5;fill-opacity:0"/>
+	
+	<g transform="translate(-5,0)">
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click" dur="0.4"/>1</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+0.4" dur="0.4"/>2</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+0.8" dur="0.4"/>3</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+1.2" dur="0.4"/>4</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+1.6" dur="0.4"/>5</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+2.0" dur="0.4"/>6</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+2.4" dur="0.4"/>7</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+2.8" dur="0.4"/>8</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+3.2" dur="0.4"/>9</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+3.6" dur="0.4"/>10</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+4.0" dur="0.4"/>11</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+4.4" dur="0.4"/>12</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+4.8" dur="0.4"/>13</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+5.2" dur="0.4"/>14</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+5.6" dur="0.4"/>15</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+6.0" dur="0.4"/>16</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+6.4" dur="0.4"/>17</text>	
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+6.8" dur="0.4"/>18</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+7.2" dur="0.4"/>19</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+7.6" dur="0.4"/>20</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="edges.click+8.0" dur="0.4" fill="freeze"/>21</text>	
+	</g>
+</g>
+
+<g 
+	id="vertices_counter_number"
+	transform="translate(0,70)"
+	style="
+		font-size:40pt;
+		fill:white;
+		font-family:sans-serif;
+		font-variant:small-caps;">
+
+	<text x="245" y="50" style="font-size:20pt;">Vertices</text>
+
+	<rect id="vertices" x="240" y="10" width="160" height="60" style="fill:#0D58A6;stroke:white;stroke-width:5;fill-opacity:0"/>
+
+	<g transform="translate(-5,0)">
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click" dur="0.4"/>1</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+0.4" dur="0.4"/>2</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+0.8" dur="0.4"/>3</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+1.2" dur="0.4"/>4</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+1.6" dur="0.4"/>5</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+2.0" dur="0.4"/>6</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+2.4" dur="0.4"/>7</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+2.8" dur="0.4"/>8</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+3.2" dur="0.4"/>9</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+3.6" dur="0.4"/>10</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+4.0" dur="0.4"/>11</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+4.4" dur="0.4"/>12</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+4.8" dur="0.4"/>13</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+5.2" dur="0.4"/>14</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="vertices.click+5.6" dur="0.4" fill="freeze"/>15</text>
+	</g>
+</g>
+
+<g 
+	id="faces_counter_number"
+	transform="translate(0,140)"
+	style="
+		font-size:40pt;
+		fill:white;
+		font-family:sans-serif;
+		font-variant:small-caps;">
+
+	<text x="250" y="50" style="font-size:20pt;">Faces</text>
+
+	<rect id="faces" x="240" y="10" width="160" height="60" style="fill:#0D58A6;stroke:white;stroke-width:5;fill-opacity:0"/>
+	
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="faces.click" dur="0.4"/>1</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="faces.click+0.4" dur="0.4"/>2</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="faces.click+0.8" dur="0.4"/>3</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="faces.click+1.2" dur="0.4"/>4</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="faces.click+1.6" dur="0.4"/>5</text>
+	<text x="345" y="55" visibility="hidden"><set attributeName="visibility" to="visible" begin="faces.click+2.0" dur="0.4" fill="freeze" />6</text>
+</g>
+
+<!--Operations-->
+<g>
+	<text x="210" y="125" opacity="0" font-size="50" font-weight="bold">-
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+3" dur="0.2" fill="freeze"/>
+	</text>
+	<text x="210" y="195" opacity="0" font-size="50" font-weight="bold">-
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+4" dur="0.2" fill="freeze"/>
+	</text>
+	<line x1="240" y1="230" x2="390" y2="230" style="stroke:black;stroke-width:7;stroke-linecap:round;opacity:0" >
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+5" dur="0.2" fill="freeze"/>
+	</line>
+	<text x="260" y="270" opacity="0" style="font-size:2em;font-weight:bold;fill:white;font-family:sans-serif;font-variant:small-caps;">Total = 0
+		<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="faces.click+6" dur="0.2" fill="freeze"/>
+	</text>
+	
+
+</g>
+
+</g>
+</svg>

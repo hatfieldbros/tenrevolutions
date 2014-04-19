@@ -1,0 +1,187 @@
+<?xml version="1.0" standalone="no"?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+
+	 viewBox="0 0 400 300"
+	   width="400px" 
+	   height="300px">
+
+<g transform="translate(-100,-50)">
+	<circle id="tree_seed" cx="300" cy="340" r="7" fill="yellow" />	
+	
+	<line x1="300" y1="340" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="0s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="0s" dur="3s" fill="freeze" from="300" to="300"/>
+		<animate attributeName="y2" attributeType="XML" begin="0s" dur="3s" fill="freeze" from="340" to="300"/>
+	</line>
+	<line x1="300" y1="300" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="3s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="3s" dur="3s" fill="freeze" from="300" to="250"/>
+		<animate attributeName="y2" attributeType="XML" begin="3s" dur="3s" fill="freeze" from="300" to="250"/>
+	</line>
+	<line x1="250" y1="250" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="6s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="6s" dur="3s" fill="freeze" from="250" to="200"/>
+		<animate attributeName="y2" attributeType="XML" begin="6s" dur="3s" fill="freeze" from="250" to="250"/>
+	</line>
+	<line x1="250" y1="250" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="6s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="6s" dur="3s" fill="freeze" from="250" to="250"/>
+		<animate attributeName="y2" attributeType="XML" begin="6s" dur="3s" fill="freeze" from="250" to="200"/>
+	</line>
+	<line x1="250" y1="200" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="9s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="9s" dur="3s" fill="freeze" from="250" to="300"/>
+		<animate attributeName="y2" attributeType="XML" begin="9s" dur="3s" fill="freeze" from="200" to="150"/>
+	</line>	
+	<line x1="250" y1="200" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="9s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="9s" dur="3s" fill="freeze" from="250" to="200"/>
+		<animate attributeName="y2" attributeType="XML" begin="9s" dur="3s" fill="freeze" from="200" to="150"/>
+	</line>	
+	<line x1="200" y1="150" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="12s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="200" to="225"/>
+		<animate attributeName="y2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="150" to="100"/>
+	</line>	
+	<line x1="200" y1="150" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="12s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="200" to="175"/>
+		<animate attributeName="y2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="150" to="100"/>
+	</line>	
+	<line x1="200" y1="150" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="12s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="200" to="150"/>
+		<animate attributeName="y2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="150" to="125"/>
+	</line>
+	
+	<line x1="150" y1="125" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="15s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="15s" dur="3s" fill="freeze" from="150" to="125"/>
+		<animate attributeName="y2" attributeType="XML" begin="15s" dur="3s" fill="freeze" from="125" to="100"/>
+	</line>
+	<line x1="150" y1="125" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="15s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="15s" dur="3s" fill="freeze" from="150" to="125"/>
+		<animate attributeName="y2" attributeType="XML" begin="15s" dur="3s" fill="freeze" from="125" to="125"/>
+	</line>
+	<line x1="150" y1="125" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="15s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="15s" dur="3s" fill="freeze" from="150" to="125"/>
+		<animate attributeName="y2" attributeType="XML" begin="15s" dur="3s" fill="freeze" from="125" to="150"/>
+	</line>
+
+	<line x1="300" y1="300" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="3s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="3s" dur="3s" fill="freeze" from="300" to="350"/>
+		<animate attributeName="y2" attributeType="XML" begin="3s" dur="3s" fill="freeze" from="300" to="250"/>
+	</line>
+	<line x1="350" y1="250" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="6s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="6s" dur="3s" fill="freeze" from="350" to="350"/>
+		<animate attributeName="y2" attributeType="XML" begin="6s" dur="3s" fill="freeze" from="250" to="200"/>
+	</line>
+	<line x1="350" y1="200" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="9s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="9s" dur="3s" fill="freeze" from="350" to="400"/>
+		<animate attributeName="y2" attributeType="XML" begin="9s" dur="3s" fill="freeze" from="200" to="200"/>
+	</line>
+	<line x1="400" y1="200" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="12s" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="400" to="425"/>
+		<animate attributeName="y2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="200" to="175"/>
+	</line>
+	<line x1="400" y1="200" style="stroke:blue;stroke-width:7;stroke-linecap: round;" visibility="hidden">
+		<set attributeName="visibility" to="visible" begin="12s" fill="freeze"/>
+		<animate id="last_line" attributeName="x2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="400" to="425"/>
+		<animate attributeName="y2" attributeType="XML" begin="12s" dur="3s" fill="freeze" from="200" to="225"/>
+	</line>	
+	
+	
+
+<circle cx="300" cy="340" r="7" fill="yellow" visibility="hidden">	
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="300" cy="300" r="7" fill="yellow" visibility="hidden">	
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="250" cy="250" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="200" cy="250" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="10s" />	
+</circle>
+<circle cx="250" cy="200" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="300" cy="150" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="200" cy="250" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="200" cy="150" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="225" cy="100" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="175" cy="100" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="150" cy="125" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="125" cy="100" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="125" cy="125" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="125" cy="150" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="350" cy="250" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="350" cy="200" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="250" cy="200" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="400" cy="200" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="425" cy="175" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+<circle cx="425" cy="225" r="7" fill="yellow" visibility="hidden">
+	<set attributeName="visibility" to="visible" begin="last_line.end + 8s" fill="freeze" />
+	<animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="last_line.end + 8s" dur="5s" />
+</circle>
+
+</g>
+
+</svg>

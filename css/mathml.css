@@ -1,0 +1,66 @@
+math
+	{
+	color: white;
+	display: block;
+	margin: .5em 40%;
+	}
+	
+math.algebra1
+	{
+	margin:20px;
+	padding-left:150px;
+	}
+
+math.noblock
+	{
+	display:inline;
+	margin: 0;
+	}
+
+math.dynamicequation
+	{
+	margin:20px;
+	padding-left:50px;
+	}
+
+#noblock2
+	{
+	display:inline;
+	margin: 0;
+	}
+
+#noblock3
+	{
+	display:inline;
+	margin: 0;
+	}
+
+#noblock4
+	{
+	display:inline;
+	margin: 0;
+	}
+
+#noblock5
+	{
+	display:inline;
+	margin: 0;
+	}
+	
+.focus
+	{
+	color:red;
+	}
+
+#twopage math
+	{
+	display:inline;
+	margin:0;
+	}
+
+#tenpage math
+	{
+	margin:0;
+	text-align: center;
+	}
+

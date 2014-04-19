@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" 
+	width="200px" 
+	height="200px" 
+	viewBox="0 0 300 300"
+	version="1.1">
+
+<g fill="none" transform="translate(10,260)">
+      <g id="axes" font-family="monospace" text-anchor="middle">
+        <line id="x-axis" x1="0" y1="0" x2="300" y2="0" stroke="gray"/>
+        <line id="x-axis-markers" x1="0" y1="0" x2="300" y2="0" 
+              stroke="gray" stroke-width="7" stroke-dasharray="1,40"/>
+        
+        <line id="y-axis" x1="0" y1="-250" x2="0" y2="0" stroke="gray"/>
+        <line id="y-axis-markers" x1="0" y1="-250" x2="0" y2="0"
+              stroke="gray" stroke-width="7" stroke-dasharray="1,35"/>
+
+        <text x="250" y="-160" font-size="20" fill="white">f(n)=n</text>
+        <text x="150" y="30" font-size="20" fill="white">Graph 1</text>
+      </g>
+
+      <line id="graph" stroke-width="1" stroke="blue" fill="none"
+            x1="0" y1="0" x2="240" y2="-210"/>
+
+		<g fill="red">
+			<circle cx="40" cy="-35" r="5"/>
+			<circle cx="80" cy="-70" r="5"/>
+			<circle cx="120" cy="-105" r="5"/>
+			<circle cx="160" cy="-140" r="5"/>
+			<circle cx="200" cy="-175" r="5"/>
+			<circle cx="240" cy="-210" r="5"/>       
+		</g>
+    </g>
+
+</svg>

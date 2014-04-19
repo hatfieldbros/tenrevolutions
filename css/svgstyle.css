@@ -1,0 +1,13 @@
+text
+	{
+	font-family:geneva, sans-serif;
+	fill: white
+	}
+  		
+.svgtitle
+	{
+	font-variant:small-caps;
+	fill:black;
+	font-weight:bold;
+	font-size:1.5em;
+	}

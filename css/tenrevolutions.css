@@ -1,0 +1,380 @@
+
+body
+	{
+		font-family: geneva, sans-serif;
+		background-color: #333333;
+	}
+	
+#page
+	{
+		width:900px;
+		height:640px;
+		margin:auto;
+	}
+
+h1, h2, h3	
+	{
+		font-variant: small-caps;
+	}
+
+h1, h3	
+	{
+		color: gray;
+	}
+	
+		
+h1	{	
+		font-size: 150%;
+		font-weight: bolder;
+		letter-spacing: 5px;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom:15px;
+	}
+
+h2 {
+		font-size: 25px;
+		font-weight:bold;
+		color: red;
+		letter-spacing: 2px;
+		text-align: center;
+		margin-top:0;
+	}
+	
+h3 
+	{
+		font-size: 130%;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+	
+p	{	
+		color: white;
+		text-indent: 2em;
+	}
+	
+li	{
+		list-style-type: none;
+		display: inline;
+		padding-right: 20px;
+		Font-size: 150%;
+	}
+	
+ul
+	{
+	padding:0;
+	margin:0;
+	}
+
+li a:link, a:visited, a:link, a:visited
+	{
+	text-decoration:none;
+	color:gray;
+	}
+	
+	
+/*--Navigation Header--*/
+	
+	
+#header img, #footer img
+	{
+	float:left;
+	}
+	
+#header_home
+	{
+		width:500px;
+		padding: 0;
+		color: gray;
+		margin: auto;
+	}
+	
+.nav
+	{
+	width:600px;
+	position:relative;
+	left:90px;
+	}
+
+#header
+	{
+	padding-top:10px;
+	}
+
+#homepage .nav
+	{
+	left:250px;
+	}
+
+.one .nav .nav1 a:link
+	{
+	color: red;
+	}
+
+.nav a:visited {
+    color: gray;
+    text-decoration: none;
+	}
+
+
+/*--Navigation Footer--*/
+
+
+#footer_home
+	{
+	width:500px;
+	margin:auto;
+	padding: 0;
+	color: gray;
+	}
+
+#footer
+	{
+	margin:auto;
+	padding-top:10px;
+	margin-bottom:20px;
+	color: gray;
+	}
+	
+/*---You are here---*/
+
+#onepage a.one:link, #onepage a.one:visited, #twopage a.two:link, #twopage a.two:visited, #threepage a.three:link, #threepage a.three:visited, #fourpage a.four:link, #fourpage a.four:visited, #fivepage a.five:link, #fivepage a.five:visited, #sixpage a.six:link, #sixpage a.six:visited, #sevenpage a.seven:link, #sevenpage a.seven:visited, #eightpage a.eight:link, #eightpage a.eight:visited, #ninepage a.nine:link, #ninepage a.nine:visited, #tenpage a.ten:link, #tenpage a.ten:visited
+	{
+	color:red;
+	}
+
+/*---SVG---*/
+
+#intro
+	{
+	padding-top: 2em;
+	}
+	
+.svg
+	{
+		float:right;
+		margin:0;
+		width:420px;
+		height:420px;
+	}
+
+.prime
+	{
+	width:420px;
+	height:420px;
+	}
+	
+.boolean_svg
+	{
+		float:right;
+		margin:0;
+		margin-top:-25px;
+	}
+
+.boolean
+	{
+	width:420px;
+	height:280px;
+	}
+
+#graph_treebox
+	{
+		float:right;
+		margin:0;
+		width:420px;
+		height:350px;
+		text-align:center;
+		padding:20px;
+	}
+
+#graph_tree
+	{
+	width:420px;
+	height:330px;
+	}
+	
+#pythagoreanbox, #trianglebox
+	{
+		float:right;
+		margin:0;
+		width:420px;
+		height:420px;
+		text-align:center;
+		padding-bottom:30px;
+	}
+
+#primebox
+	{
+		float:right;
+		margin:0;
+		width:420px;
+		height:350px;
+		text-align:center;
+		padding-bottom:30px;
+	}
+
+#fourpage .imgbox
+	{
+	height:420px;
+	}
+	
+#fourpage .img
+	{
+	width:320px;
+	height:300px;
+	margin:20px;
+	padding:20px;
+	float:left;
+	}
+	
+.algebra
+	{
+	float:right;
+	margin:0;
+	width:420px;
+	height:420px;
+	text-align:center;
+	padding-bottom:30px;
+	}
+	
+.calculus
+	{
+	float:right;
+	clear:right;
+	margin:0;
+	width:420px;
+	height:200px;
+	}
+
+.functionbox
+	{
+		float:right;
+		margin-right:50px;
+		width:250px;
+		height:250px;
+	}
+	
+.function
+	{
+	float:right;
+	margin:0;
+	width:220px;
+	height:220px;
+	}
+
+.topology
+	{
+	width:430px;
+	height:330px;
+	}
+
+.cryptology
+	{
+	width:500px;
+	height:400px;
+	}
+
+.dynamics
+	{
+	width:530px;
+	height:530px;
+	}
+	
+*/---   ---*/
+	
+.img p
+	{
+	font-size: 0.8em;
+	text-indent:0;
+	color:gray;
+	}
+
+#streetsweepervideo
+	{
+	float:left;
+	margin: 1em;
+	}
+	
+#ishango_bone
+	{
+	font-size:smaller;
+	width: 200px;
+	padding: 0;
+	border: .2em solid green;
+	margin: 0 1em 0 0;
+	background-color: green;
+	float:left;
+	}
+	
+	
+#ishango_bone p
+	{
+	line-height: 0;
+	font-variant: small-caps;
+	text-align:center;
+	text-indent:0;
+	}
+	
+#commentbox
+	{
+	font-size:smaller;
+	width: 250px;
+	padding: 0 .5em;
+	border: .1em solid blue;
+	margin: 20px 0 0 0;
+	float:left;
+	clear:left;
+	}
+
+#commentbox p
+	{
+	color:blue;
+	}
+	
+.accent
+	{
+	color: yellow;
+	font-style: italic;
+	}
+	
+.svgtitle
+	{
+	font-variant:small-caps;
+	}
+	
+text
+	{
+	font-family:geneva, sans-serif;
+	fill: white
+	}
+
+div.middle
+	{
+	min-height:5em;
+	display: table;
+    }
+
+.middle p
+	{
+	min-height:40em;
+	display:table-cell;
+    vertical-align: middle;
+	}
+
+#credit
+	{
+	margin-top:50px
+	}
+
+#credit a:link, #credit a:visited
+	{
+	color:gray;
+	}
+
+#credit p
+	{
+	color:white;
+	text-align:center;
+	}
+	
+br.clearme { clear: both; padding: 0; margin: 0; visibility: hidden; display: block}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="100%" height="100%" viewBox="0 0 300 300">
+<circle r="50" cx="100" cy="100" fill="grey"/>
+
+<defs>
+<path id="curve1" d="M 10 100 C 200 30 300 30 300 30" />
+</defs>
+
+<text id="T" style="font-family:ariel;font-size:16">
+<textPath xlink:href="#curve1" startOffset ="0">
+<animate attributeName="startOffset" dur="1s" from="-300" to="20" />
+Ana wants to talk to Bob.
+</textPath>
+</text>
+</svg>

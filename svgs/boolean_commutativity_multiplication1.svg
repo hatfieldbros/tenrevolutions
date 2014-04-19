@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="no"?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="400px" 
+	height="260px" 
+	version="1.1">
+  
+<style type="text/css">
+
+</style>
+  
+<g transform="translate(-100,0)">
+
+<text x="190" y="255" style="font-size:12pt;fill:white;font-family:sans-serif;">Click on rings to see A x B</text> 
+
+<g>
+	<circle cx="6.5cm" cy="2cm" r="75" fill="white" style="stroke:black; stroke-width:0.2cm" transform="translate(0,50)" >
+		<animate attributeName="fill" from="white" to="red" begin="boolean_box.click" dur="2s" fill="freeze" />
+		<animate attributeName="fill" from="red" to="white" begin="boolean_box.click+4" dur="2s" fill="freeze" />
+	</circle>
+	<circle cx="6.5cm" cy="2cm" r="75" fill="white" style="stroke:black; stroke-width:0.2cm" transform="translate(100,50)" >
+		<animate attributeName="fill" from="white" to="red" begin="boolean_box.click+2" dur="2s" fill="freeze" />
+		<animate attributeName="fill" from="red" to="white" begin="boolean_box.click+4" dur="2s" fill="freeze" />
+	</circle>
+</g>
+
+<g stroke = "white" stroke-width = "3" fill = "white">
+	<animate attributeName="stroke" from="white" to="red" begin="boolean_box.click" dur="2s" fill="freeze" />
+	<path d="M295 78
+		a 90 75, 0, 0, 1, 0 95
+		Z">
+			<animate attributeName="fill" from="white" to="red" begin="boolean_box.click" dur="2s" fill="freeze" />
+	</path>
+		<path d="M295 78
+    	a 90 75, 0, 0, 0, 0 95
+    	Z">
+    		<animate attributeName="fill" from="white" to="red" begin="boolean_box.click" dur="2s" fill="freeze" />
+	</path>
+</g>
+
+<g>
+	<text x="225" y="135" fill="white" style="font-size:20pt;font-family:sans-serif;">A
+		<animate attributeName="fill" from="white" to="black" begin="boolean_box.click" dur="2s" fill="freeze" />
+	</text>
+	<text x="285" y="135" fill="none" style="font-size:20pt;font-family:sans-serif;">x
+		<animate attributeName="fill" from="none" to="black" begin="boolean_box.click" dur="3s" fill="freeze" />
+	</text>
+	<text x="340" y="135" fill="white" style="font-size:20pt;font-family:sans-serif;">B
+		<animate attributeName="fill" from="white" to="black" begin="boolean_box.click+2" dur="2s" fill="freeze" />
+	</text>
+</g>
+
+<rect id="boolean_box" x="0" y="0" width="500" height="250"
+   style="fill:white;stroke:none;stroke-width:5;fill-opacity:0;
+   stroke-opacity:0.9" z-index="1"/>
+   
+</g>
+</svg>

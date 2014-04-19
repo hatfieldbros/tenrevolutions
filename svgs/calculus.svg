@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="no"?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="400px" 
+	height="180px" 
+	version="1.1">
+
+<g
+style="font-size:2em; 
+       font-weight:bold; 
+       stroke:white; 
+       stroke-width:.1; 
+       text-anchor: middle;
+       fill:white;">
+       
+<rect id="calculus_box" x="10" y="10" width="375" height="150"
+   style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;
+   stroke-opacity:0.9"/>
+
+<text x="100" y="60" style="font-size:30pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click" fill="freeze"/>|</text>
+<text x="150" y="60" style="font-size:30pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+0.5" fill="freeze"/>|</text>
+<text x="200" y="60" style="font-size:30pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+1" fill="freeze"/>|</text>
+<text x="250" y="60" style="font-size:30pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+1.5" fill="freeze"/>|</text>
+<text x="300" y="60" style="font-size:30pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+2" fill="freeze"/>|</text>
+
+<text x="100" y="125" style="font-size:24pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+3" fill="freeze"/>1</text>
+<text x="150" y="125" style="font-size:24pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+3.5" fill="freeze"/>2</text>
+<text x="200" y="125" style="font-size:24pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+4" fill="freeze"/>3</text>
+<text x="250" y="125" style="font-size:24pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+4.5" fill="freeze"/>4</text>
+<text x="300" y="125" style="font-size:24pt;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+5" fill="freeze"/>5</text>
+
+<line x1="50" y1="50" x2="50" y2="110" style="stroke:limegreen; stroke-width:5;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+6" fill="freeze"/></line>
+<polyline
+	style="stroke-linejoin:mitre; stroke:limegreen; stroke-width:5; fill:none;"
+	points="45,100 50,110 55,100" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+6" fill="freeze"/></polyline>
+
+<line x1="350" y1="50" x2="350" y2="110" style="stroke:limegreen; stroke-width:5;" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+6" fill="freeze"/></line>
+<polyline
+	style="stroke-linejoin:mitre; stroke:limegreen; stroke-width:5; fill:none;"
+	points="345,60 350,50 355,60" visibility="hidden"><set attributeName="visibility" to="visible" begin="calculus_box.click+6" fill="freeze"/></polyline>
+	
+<object />
+</g>
+
+</svg>

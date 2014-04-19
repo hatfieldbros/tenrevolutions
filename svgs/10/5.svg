@@ -1,0 +1,314 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="500px" height="500px" viewBox="10 10 80 60" preserveAspectRatio="xMinYMin meet" version="1.1">
+
+<animate attributeName="viewBox"
+begin="fig1.click+2" dur="1s" values="10 10 80 60;10 10 140 40" fill="freeze"/>
+<animate attributeName="viewBox"
+begin="fig1.click+6" dur="1s" values="10 10 140 40;10 10 230 130" fill="freeze"/>
+<animate attributeName="viewBox"
+begin="fig1.click+8" dur="1s" values="10 10 230 130;10 10 230 200" fill="freeze"/>
+<animate attributeName="viewBox"
+begin="fig1.click+10" dur="1s" values="10 10 230 200;10 10 230 270" fill="freeze"/>
+<animate attributeName="viewBox"
+begin="fig1.click+12" dur="1s" values="10 10 230 270;10 10 230 340" fill="freeze"/>
+<animate attributeName="viewBox"
+begin="fig1.click+14" dur="1s" values="10 10 230 340;10 10 230 430" fill="freeze"/>
+
+<g>
+
+<!--definitions-->
+<defs>
+<style type="text/css"><![CDATA[
+	text
+		{
+		font-family:geneva, sans-serif;
+		font-size:1.5em;
+		fill: white;
+		}
+  	
+  	circle
+  		{
+  		stroke:white;
+  		}
+
+  	circle.even
+  		{
+  		fill:red;
+  		}
+
+  	circle.odd
+  		{
+  		fill:blue;
+  		}
+  		
+	.svgtitle
+		{
+		font-variant:small-caps;
+		fill:black;
+		font-weight:bold;
+		font-size:1.5em;
+		}
+		
+	
+    ]]></style>
+
+
+
+</defs>
+
+<!--canvas-->
+<rect x="5" y="5" width="500" height="500"
+   style="fill:#6789BD" />
+   
+<!--3-->
+<g>
+	<circle class="odd" cx="49" cy="40" r="20" opacity="0" >
+		<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click" dur="1" fill="freeze" />
+	</circle>
+<text x="50" y="48" text-anchor="middle" opacity="">3
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click" dur="1" fill="freeze" />
+</text>
+<g id="arrow1" stroke="red" stroke-width="3" stroke-linecap="round" visibility="hidden">
+	<line x1="75" y1="40" y2="40">
+		<set attributeName="visibility" to="visible" begin="fig1.click+2" />
+		<animate attributeName="x2" attributeType="XML" begin="fig1.click+2" dur="1s" from="75" to="90" fill="freeze"/>
+	</line>
+	<line y1="35" y2="40">
+		<set attributeName="visibility" to="visible" begin="fig1.click+2" />
+		<animate attributeName="x1" attributeType="XML" begin="fig1.click+2" dur="1s" from="70" to="85" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="fig1.click+2" dur="1s" from="75" to="90" fill="freeze"/>
+	</line>
+	<line y1="45" y2="40">
+		<set attributeName="visibility" to="visible" begin="fig1.click+2" />
+		<animate attributeName="x1" attributeType="XML" begin="fig1.click+2" dur="1s" from="70" to="85" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="fig1.click+2" dur="1s" from="75" to="90" fill="freeze"/>
+	</line>
+</g>
+
+</g>
+
+<!--10-->
+<g>
+<circle class="even" cx="120" cy="40" r="20" opacity="0">
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+2" dur="1" fill="freeze" />
+</circle>
+<text x="120" y="49" text-anchor="middle" opacity="0" >10
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+2" dur="1" fill="freeze" />
+</text>
+<g stroke="red" stroke-width="3" stroke-linecap="round" visibility="hidden">
+	<line x1="120" x2="120" y1="65">
+		<set attributeName="visibility" to="visible" begin="fig1.click+4" />
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+4" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="115" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+4" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+4" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+4" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="125" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+4" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+4" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+4" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+</g>
+
+<!--5-->
+<g>
+<circle class="odd" cx="120" cy="105" r="20" opacity="0">
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+4" dur="1" fill="freeze" />
+</circle>
+<text x="120" y="115" text-anchor="middle" opacity="0" >5
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+4" dur="1" fill="freeze" />
+</text>
+<g stroke="red" stroke-width="3" stroke-linecap="round" visibility="hidden" transform="translate(72,65)">
+	<line x1="75" y1="40" y2="40">
+		<set attributeName="visibility" to="visible" begin="fig1.click+6" />
+		<animate attributeName="x2" attributeType="XML" begin="fig1.click+6" dur="1s" from="75" to="90" fill="freeze"/>
+	</line>
+	<line y1="35" y2="40">
+		<set attributeName="visibility" to="visible" begin="fig1.click+6" />
+		<animate attributeName="x1" attributeType="XML" begin="fig1.click+6" dur="1s" from="70" to="85" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="fig1.click+6" dur="1s" from="75" to="90" fill="freeze"/>
+	</line>
+	<line y1="45" y2="40">
+		<set attributeName="visibility" to="visible" begin="fig1.click+6" />
+		<animate attributeName="x1" attributeType="XML" begin="fig1.click+6" dur="1s" from="70" to="85" fill="freeze"/>
+		<animate attributeName="x2" attributeType="XML" begin="fig1.click+6" dur="1s" from="75" to="90" fill="freeze"/>
+	</line>
+</g>
+</g>
+
+<!--16-->
+<g transform="translate(70,0)">
+<circle class="even" cx="120" cy="105" r="20" opacity="0">
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+6" dur="1" fill="freeze" />
+</circle>
+<text x="120" y="115" text-anchor="middle" opacity="0" >16
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+6" dur="1" fill="freeze" />
+</text>
+<g stroke="red" stroke-width="3" stroke-linecap="round" visibility="hidden" transform="translate(0,67)">
+	<line x1="120" x2="120" y1="65">
+		<set attributeName="visibility" to="visible" begin="fig1.click+8" />
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+8" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="115" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+8" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+8" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+8" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="125" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+8" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+8" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+8" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+</g>
+</g>
+
+<!--8-->
+<g transform="translate(70,70)">
+<circle class="even" cx="120" cy="105" r="20" opacity="0">
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+8" dur="1" fill="freeze" />
+</circle>
+<text x="120" y="115" text-anchor="middle" opacity="0" >8
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+8" dur="1" fill="freeze" />
+</text>
+<g stroke="red" stroke-width="3" stroke-linecap="round" visibility="hidden" transform="translate(0,67)">
+	<line x1="120" x2="120" y1="65">
+		<set attributeName="visibility" to="visible" begin="fig1.click+10" />
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+10" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="115" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+10" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+10" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+10" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="125" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+10" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+10" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+10" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+</g>
+</g>
+
+<!--4-->
+<g transform="translate(70,140)">
+<circle class="even" cx="120" cy="105" r="20" opacity="0">
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+10" dur="1" fill="freeze" />
+</circle>
+<text x="120" y="115" text-anchor="middle" opacity="0" >4
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+10" dur="1" fill="freeze" />
+</text>
+<g stroke="red" stroke-width="3" stroke-linecap="round" visibility="hidden" transform="translate(0,67)">
+	<line x1="120" x2="120" y1="65">
+		<set attributeName="visibility" to="visible" begin="fig1.click+12" />
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+12" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="115" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+12" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+12" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+12" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="125" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+12" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+12" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+12" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+</g>
+</g>
+
+<!--2-->
+<g transform="translate(70,210)">
+<circle class="even" cx="120" cy="105" r="20" opacity="0">
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+12" dur="1" fill="freeze" />
+</circle>
+<text x="120" y="115" text-anchor="middle" opacity="0" >2
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+12" dur="1" fill="freeze" />
+</text>
+<g stroke="red" stroke-width="3" stroke-linecap="round" visibility="hidden" transform="translate(0,67)">
+	<line x1="120" x2="120" y1="65">
+		<set attributeName="visibility" to="visible" begin="fig1.click+14" />
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+14" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="115" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+14" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+14" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+14" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+	<line x1="125" x2="120">
+		<set attributeName="visibility" to="visible" begin="fig1.click+14" />
+		<animate attributeName="y1" attributeType="XML" begin="fig1.click+14" dur="1s" from="60" to="75" fill="freeze"/>
+		<animate attributeName="y2" attributeType="XML" begin="fig1.click+14" dur="1s" from="65" to="80" fill="freeze"/>
+	</line>
+</g>
+</g>
+
+<!--1-->
+<g transform="translate(70,280)">
+<circle class="odd" cx="120" cy="105" r="20" opacity="0">
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+14" dur="1" fill="freeze" />
+</circle>
+<text x="120" y="115" text-anchor="middle" opacity="0" >1
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+14" dur="1" fill="freeze" />
+</text>
+</g>
+
+<!--Big1-->
+<g>
+<circle fill="yellow" cx="340" cy="220" r="50" opacity="0" stroke-width="8">
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="0.8" begin="fig1.click+16" dur="1" fill="freeze" />
+</circle>
+<text x="340" y="235" text-anchor="middle" opacity="0" style="font-size:50px;font-weight:bold;">1
+	<animate attributeType="CSS"
+		attributeName="opacity"
+		from="0" to="1" begin="fig1.click+16" dur="1" fill="freeze" />
+</text>
+</g>
+
+
+</g>
+
+</g>
+
+
+<!--canvas click listener-->
+<rect id="fig1" x="5" y="5" width="400" height="500"
+   style="fill:white;stroke:white;stroke-width:5;
+   stroke-opacity:0.9;opacity:0"/>
+
+</svg>

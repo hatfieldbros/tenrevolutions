@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="400px" 
+	height="230px"
+	viewbox="0 0 400 230"
+	version="1.1">
+
+  <style type="text/css">
+  </style>
+  
+<g transform="translate(-100,0)">
+
+<g>
+	<text x="130" y="40" style="font-size:20pt;fill:white;font-family:sans-serif;">A</text>
+	<text x="460" y="40" style="font-size:20pt;fill:white;font-family:sans-serif;">B</text>
+</g>
+
+<g>
+	<circle cx="6.5cm" cy="2cm" r="75" style="fill:red; stroke:black; stroke-width:0.2cm" transform="translate(0,50)" />
+	<circle cx="6.5cm" cy="2cm" r="75" style="fill:blue; stroke:black; stroke-width:0.2cm" transform="translate(100,50)" />
+</g>
+
+<g stroke = "purple" stroke-width = "3" fill = "purple">
+	<path d="M295 78
+		a 90 75, 0, 0, 1, 0 95
+		Z"/>
+	<path d="M295 78
+    	a 90 75, 0, 0, 0, 0 95
+    	Z"/>
+</g>
+</g>
+</svg>

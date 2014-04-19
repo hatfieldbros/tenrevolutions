@@ -1,0 +1,38 @@
+#header_home
+	{
+		width:500px;
+		padding: 0;
+		color: gray;
+		margin: auto;
+	}
+	
+.nav
+	{
+	display: block;
+	position:relative;
+	}
+
+#header
+	{
+	padding-top:10px;
+	}
+	
+#header .nav
+	{
+	left:75px;
+	}
+
+#homepage .nav
+	{
+	left:200px;
+	}
+
+.1 .nav .nav1 a:link
+	{
+	color: red;
+	}
+
+.nav a:visited {
+    color: gray;
+    text-decoration: none;
+	}

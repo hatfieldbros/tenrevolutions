@@ -1,0 +1,96 @@
+<?xml version="1.0" standalone="no"?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="400px" 
+	height="400px" 
+	version="1.1">
+
+<rect x="0" y="0" width="400" height="400" fill="#333333" />
+
+<g
+style="font-size:2em; 
+       font-weight:bold; 
+       stroke:white; 
+       stroke-width:.1; 
+       text-anchor: middle;
+       fill:white;">
+       
+/*---x^2 box---/*
+
+<rect x="100" y="100" width="180" height="180"
+   style="fill:yellow;stroke:none;stroke-width:5;fill-opacity:1;
+   stroke-opacity:0.9"/>
+   
+<text x="190" y="190" fill="#333333">x</text>
+<text x="205" y="175" fill="#333333" font-size="0.5em">2</text>
+<text x="190" y="310">x</text>
+<text x="80" y="190">x</text>
+
+/*---B/2 top box---/*
+
+<rect x="100" y="40" width="180" height="60"
+   style="fill:blue;stroke:none;stroke-width:5;fill-opacity:0.8;
+   stroke-opacity:0.9"/>
+
+<g font-size="0.7em">
+<text x="80" y="60">b</text>   
+<text x="80" y="65">__</text>   
+<text x="80" y="90">2</text>
+</g>
+
+<g font-size="0.7em" transform="translate(100,0)" fill="#333333">
+<text x="80" y="60">b</text>   
+<text x="80" y="65">__</text>   
+<text x="80" y="90">2</text>
+<text x="100" y="75">x</text>
+</g>
+
+/*---B/2 right box---/*
+
+<rect x="280" y="100" width="60" height= "180"
+   style="fill:blue;stroke:none;stroke-width:5;fill-opacity:0.8;
+   stroke-opacity:0.9"/>
+
+<g font-size="0.7em" transform="translate(230,120)" fill="#333333">
+<text x="80" y="60">b</text>   
+<text x="80" y="65">__</text>   
+<text x="80" y="90">2</text>
+<text x="100" y="75">x</text>
+</g>
+
+<g font-size="0.7em" transform="translate(230, 240)">
+<text x="80" y="60">b</text>   
+<text x="80" y="65">__</text>   
+<text x="80" y="90">2</text>
+</g>
+
+/*---C box---/*
+
+<g font-size="0.7em">
+<text x="310" y="68">b</text>
+<text x="320" y="55" font-size="0.8em">2</text> 
+<text x="310" y="73">__</text>   
+<text x="310" y="98">4</text>
+</g>
+	
+<rect x="280" y="40" width="60" height= "60" opacity="1"
+   style="fill:red;stroke:none;stroke-width:5">
+	<set attributeName="opacity" attributeType="CSS" to="0"
+	begin="greenbox.mouseover" end="greenbox.mouseout"/>
+</rect>
+
+<g font-size="0.7em">
+<text x="310" y="80">&#63;
+	<set attributeName="opacity" to="0"
+	begin="greenbox.mouseover" end="greenbox.mouseout"/>
+	</text>	
+</g>
+
+<rect id="greenbox" x="280" y="40" width="60" height= "60" fill-opacity="0"/>
+
+   
+</g>
+
+</svg>

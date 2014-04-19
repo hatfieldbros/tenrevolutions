@@ -1,0 +1,44 @@
+##### Allow cross origin request for CS171 hw troubleshooting #####
+<FilesMatch "\.(json)$">
+  <IfModule mod_headers.c>
+		Access-Control-Allow-Origin: "*"
+	</IfModule>
+</FilesMatch>
+
+#custom errors
+ErrorDocument 404 /tenrevolutions/404.php
+
+#enable expirations
+ExpiresActive On
+ExpiresByType text/css A60
+ExpiresByType application/x-javascript A60
+ExpiresByType image/jpeg A60
+ExpiresByType image/gif A60
+ExpiresByType image/png M60
+
+#output filter so XHTML, HTML, CSS, js files are compressed
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/x-javascript
+
+##### Mod Rewrite #####
+# Create clean urls from files in /pages/ directory
+
+RewriteEngine on
+
+# the first condition is for avoiding an infinite loop
+RewriteCond %{REQUEST_URI} !^/pages/.*
+
+# the next conditions are to allow retrieval of other documents from other subdirectories
+RewriteCond %{REQUEST_URI} !^/css/.*
+RewriteCond %{REQUEST_URI} !^/images/.*
+RewriteCond %{REQUEST_URI} !^/includes/.*
+RewriteCond %{REQUEST_URI} !^/js/.*
+RewriteCond %{REQUEST_URI} !^/svgs/.*
+
+RewriteRule ^(.*)$  /pages/$1
+
+##### SVG #####
+
+AddType image/svg+xml svg

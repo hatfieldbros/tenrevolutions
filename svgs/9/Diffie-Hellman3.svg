@@ -1,0 +1,192 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../svgstyle.css" ?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+width="450px" height="360px" viewBox="0 0 450 350" version="1.1">
+
+<style type="text/css"><![CDATA[
+	text
+		{
+		font-family:geneva, sans-serif;
+		fill: white
+		}
+  		
+	.svgtitle
+		{
+		font-variant:small-caps;
+		fill:black;
+		font-weight:bold;
+		font-size:1.5em;
+		}
+    ]]></style>
+
+<!--definitions-->
+<defs>    
+</defs>
+
+<!--canvas-->
+<rect x="5" y="5" width="450" height="290"
+   style="fill:#6789BD" />
+   
+<!--caption-->
+<rect x="50" y="300" width="350" height="40"
+	style="fill:gray" />
+	
+<!--title-->
+<text class="svgtitle" x="230" y="328" text-anchor="middle">Creating the Key Part I</text>
+
+<g transform="translate(-10,20)">
+
+	<!--Animated Text-->
+
+	<g id="Everyonetext1">
+		<text x="60" y="50">Lets choose 2 for the public base...</text>
+		<rect x="50" y="30" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g id="Everyonetext1.2">
+		<text x="360" y="50">a = 2</text>
+		<rect x="355" y="35" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+2" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g id="Everyonetext2">
+		<text x="120" y="70">...and 11 for the public prime.</text>
+		<rect x="120" y="55" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+3" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g id="Everyonetext2.2">
+		<text x="360" y="70">p = 11</text>
+		<rect x="355" y="55" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+5" dur="2" fill="freeze" />
+		</rect>
+	</g>
+   
+	<!--Ana, Bob, and Eve circles-->
+
+	<g transform="translate(0,20)">
+
+		<g id="Ana" opacity="0" >
+			<circle cx="100" cy="110" r="30" style="fill:red; stroke:black; stroke-width:0.1cm"/>
+			<text x="100" y="115" text-anchor="middle">Ana</text>
+			<animate attributeType="CSS"
+				attributeName="opacity"
+				from="0" to="1" begin="fig1.click+7" dur="1" fill="freeze" />
+		</g>
+		<g id="Bob" opacity="0">
+			<circle cx="300" cy="110" r="30" style="fill:#1252DD; stroke:black; stroke-width:0.1cm" />
+			<text x="300" y="115" text-anchor="middle">Bob</text>
+			<animate attributeType="CSS"
+				attributeName="opacity"
+				from="0" to="1" begin="fig1.click+15" dur="1" fill="freeze" />
+		</g>
+
+		<!--more animated text-->
+
+		<g id="Anatext1" transform="translate(0,20)">
+			<text x="30" y="160" >Ana chooses a number, x.</text>
+			<rect x="25" y="145" width="400" height="25" fill="#6789BD">
+				<animateTransform attributeType="XML"
+					attributeName="transform" type="translate"
+					values="0,0; 400,0"
+					begin="fig1.click+9" dur="2" fill="freeze" />
+			</rect>
+		</g>
+		<g id="Anatext1.1">
+			<text x="140" y="110" >x</text>
+			<rect x="135" y="95" width="50" height="25" fill="#6789BD">
+				<animateTransform attributeType="XML"
+					attributeName="transform" type="translate"
+					values="0,0; 50,0"
+					begin="fig1.click+11" dur="1" fill="freeze" />
+			</rect>
+		</g>
+		<g id="Anatext2" transform="translate(0,20)">
+			<text x="30" y="180" >Let's say its 3.</text>
+			<rect x="30" y="165" width="400" height="25" fill="#6789BD">
+				<animateTransform attributeType="XML"
+					attributeName="transform" type="translate"
+					values="0,0; 400,0"
+					begin="fig1.click+12" dur="2" fill="freeze" />
+			</rect>
+		</g>
+		<g id="Anatext2.1">
+			<text x="150" y="110" >= 3</text>
+			<rect x="150" y="95" width="50" height="25" fill="#6789BD">
+				<animateTransform attributeType="XML"
+					attributeName="transform" type="translate"
+					values="0,0; 50,0"
+					begin="fig1.click+13" dur="1" fill="freeze" />
+			</rect>
+		</g>
+
+
+		<!--Bob-->
+
+		<g id="Bobtext1" transform="translate(20,20)">
+			<text x="220" y="160" >Bob chooses a number, y.</text>
+			<rect x="220" y="145" width="400" height="25" fill="#6789BD">
+				<animateTransform attributeType="XML"
+					attributeName="transform" type="translate"
+					values="0,0; 400,0"
+					begin="fig1.click+17" dur="2" fill="freeze" />
+			</rect>
+		</g>
+		<g id="Bobtext1.1">
+			<text x="340" y="110" >y</text>
+			<rect x="335" y="95" width="50" height="25" fill="#6789BD">
+				<animateTransform attributeType="XML"
+					attributeName="transform" type="translate"
+					values="0,0; 50,0"
+					begin="fig1.click+18" dur="1" fill="freeze" />
+			</rect>
+		</g>
+		<g id="Bobtext2" transform="translate(20,20)">
+			<text x="220" y="180" >Let's say its 5.</text>
+			<rect x="220" y="165" width="400" height="25" fill="#6789BD">
+				<animateTransform attributeType="XML"
+					attributeName="transform" type="translate"
+					values="0,0; 400,0"
+					begin="fig1.click+19" dur="2" fill="freeze" />
+			</rect>
+		</g>
+		<g id="Bobtext2.1">
+			<text x="350" y="110" >= 5</text>
+			<rect x="350" y="95" width="50" height="25" fill="#6789BD">
+				<animateTransform attributeType="XML"
+					attributeName="transform" type="translate"
+					values="0,0; 50,0"
+					begin="fig1.click+20" dur="1" fill="freeze" />
+			</rect>
+		</g>
+
+	</g><!--  /transform -->
+</g><!--  /transform -->
+
+<!--canvas click listener-->
+<rect id="fig1" x="5" y="5" width="390" height="300"
+   style="fill:#0D58A6;stroke:white;stroke-width:5;
+   stroke-opacity:0.9;opacity:0"/>
+   
+
+
+<!--canvas border-->
+<rect x="5" y="5" width="442" height="290"
+   style="fill:none;stroke:white;stroke-width:7" />   
+   
+</svg>

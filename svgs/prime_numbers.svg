@@ -1,0 +1,185 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="400px" height="400px" viewBox="0 0 400 400" preserveAspectRatio="xMinYMin meet" version="1.1">
+
+<rect x="0" y="0" width="400" height="400" fill="#333333" />
+
+<animate attributeName="viewBox"
+dur="14s" values="120 90 120 120;0 0 330 360" fill="freeze"/>
+
+<g 	transform="translate(-50, -100)" visibility="hidden" fill="blue" stroke-opacity="0.9">
+
+<rect x="265" y="236" width="20" height="20"><set attributeName="visibility" to="visible" begin="17s" fill="freeze"/></rect>
+<rect x="265" y="211" width="20" height="20"><set attributeName="visibility" to="visible" begin="18s" fill="freeze"/></rect>
+<rect x="215" y="211" width="20" height="20"><set attributeName="visibility" to="visible" begin="19s" fill="freeze"/></rect>
+<rect x="215" y="261" width="20" height="20"><set attributeName="visibility" to="visible" begin="20s" fill="freeze"/></rect>
+<rect x="290" y="236" width="20" height="20"><set attributeName="visibility" to="visible" begin="21s" fill="freeze"/></rect>
+<rect x="290" y="186" width="20" height="20"><set attributeName="visibility" to="visible" begin="22s" fill="freeze"/></rect>
+<rect x="190" y="186" width="20" height="20"><set attributeName="visibility" to="visible" begin="23s" fill="freeze"/></rect>
+<rect x="190" y="236" width="20" height="20"><set attributeName="visibility" to="visible" begin="24s" fill="freeze"/></rect>
+<rect x="240" y="288" width="20" height="20"><set attributeName="visibility" to="visible" begin="25s" fill="freeze"/></rect>
+<rect x="315" y="211" width="20" height="20"><set attributeName="visibility" to="visible" begin="25.5s" fill="freeze"/></rect>
+<rect x="315" y="161" width="20" height="20"><set attributeName="visibility" to="visible" begin="26s" fill="freeze"/></rect>
+<rect x="165" y="161" width="20" height="20"><set attributeName="visibility" to="visible" begin="26.6s" fill="freeze"/></rect>
+<rect x="165" y="261" width="20" height="20"><set attributeName="visibility" to="visible" begin="27s" fill="freeze"/></rect>
+<rect x="165" y="311" width="20" height="20"><set attributeName="visibility" to="visible" begin="27.5s" fill="freeze"/></rect>
+<rect x="265" y="311" width="20" height="20"><set attributeName="visibility" to="visible" begin="28s" fill="freeze"/></rect>
+<rect x="340" y="236" width="20" height="20"><set attributeName="visibility" to="visible" begin="28.5s" fill="freeze"/></rect>
+<rect x="290" y="136" width="20" height="20"><set attributeName="visibility" to="visible" begin="29s" fill="freeze"/></rect>
+<rect x="240" y="136" width="20" height="20"><set attributeName="visibility" to="visible" begin="29.5s" fill="freeze"/></rect>
+<rect x="140" y="186" width="20" height="20"><set attributeName="visibility" to="visible" begin="30s" fill="freeze"/></rect>
+<rect x="140" y="286" width="20" height="20"><set attributeName="visibility" to="visible" begin="30.5s" fill="freeze"/></rect>
+<rect x="140" y="336" width="20" height="20"><set attributeName="visibility" to="visible" begin="31s" fill="freeze"/></rect>
+<rect x="290" y="336" width="20" height="20"><set attributeName="visibility" to="visible" begin="31.2s" fill="freeze"/></rect>
+<rect x="365" y="311" width="20" height="20"><set attributeName="visibility" to="visible" begin="31.4s" fill="freeze"/></rect>
+<rect x="365" y="161" width="20" height="20"><set attributeName="visibility" to="visible" begin="31.6s" fill="freeze"/></rect>
+<rect x="215" y="111" width="20" height="20"><set attributeName="visibility" to="visible" begin="31.8s" fill="freeze"/></rect>
+<rect x="115" y="111" width="20" height="20"><set attributeName="visibility" to="visible" begin="32s" fill="freeze"/></rect>
+<rect x="115" y="161" width="20" height="20"><set attributeName="visibility" to="visible" begin="32.2s" fill="freeze"/></rect>
+<rect x="115" y="261" width="20" height="20"><set attributeName="visibility" to="visible" begin="32.4s" fill="freeze"/></rect>
+<rect x="115" y="311" width="20" height="20"><set attributeName="visibility" to="visible" begin="32.6s" fill="freeze"/></rect>
+<rect x="165" y="361" width="20" height="20"><set attributeName="visibility" to="visible" begin="32.8s" fill="freeze"/></rect>
+
+</g>
+
+<g
+style="font-size:12; 
+       font-weight:normal; 
+       stroke:white; 
+       stroke-width:.1; 
+       text-anchor: middle;
+       fill:white;"
+	transform="translate(-50, -100)">
+
+	<text x="250" y="250" visibility=""><set attributeName="visibility" to="visible" begin="1s" fill="freeze"/>1</text>
+	<text x="275" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="1.5s" fill="freeze"/>2</text>
+	<text x="275" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="2s" fill="freeze"/>3</text>
+	<text x="250" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="2.5s" fill="freeze"/>4</text>
+	<text x="225" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="3s" fill="freeze"/>5</text>
+	<text x="225" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="3.5s" fill="freeze"/>6</text>
+	<text x="225" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="4s" fill="freeze"/>7</text>
+	<text x="250" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="4.5s" fill="freeze"/>8</text>
+	<text x="275" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="5s" fill="freeze"/>9</text>
+	<text x="300" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="5.5s" fill="freeze"/>10</text>
+
+	<text x="300" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="5.75s" fill="freeze"/>11</text>
+	<text x="300" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="6s" fill="freeze"/>12</text>
+	<text x="300" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="6.25s" fill="freeze"/>13</text>
+	<text x="275" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="6.5s" fill="freeze"/>14</text>
+	<text x="250" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="6.75s" fill="freeze"/>15</text>
+	<text x="225" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="7s" fill="freeze"/>16</text>
+	<text x="200" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="7.25s" fill="freeze"/>17</text>
+	<text x="200" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="7.5s" fill="freeze"/>18</text>
+	<text x="200" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="7.75s" fill="freeze"/>19</text>
+	<text x="200" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="8s" fill="freeze"/>20</text>
+	<text x="200" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="8.25s" fill="freeze"/>21</text>
+	<text x="225" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="8.5s" fill="freeze"/>22</text>
+	<text x="250" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="8.75s" fill="freeze"/>23</text>
+	<text x="275" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="9s" fill="freeze"/>24</text>
+	<text x="300" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="9.25s" fill="freeze"/>25</text>
+	<text x="325" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="9.5s" fill="freeze"/>26</text>
+	
+	
+	<text x="325" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="9.6s" fill="freeze"/>27</text>
+	<text x="325" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="9.7s" fill="freeze"/>28</text>
+	<text x="325" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="9.8s" fill="freeze"/>29</text>
+	<text x="325" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="9.9s" fill="freeze"/>30</text>
+	<text x="325" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="10s" fill="freeze"/>31</text>
+	<text x="300" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.1s" fill="freeze"/>32</text>
+	<text x="275" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.2s" fill="freeze"/>33</text>
+	<text x="250" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.3s" fill="freeze"/>34</text>
+	<text x="225" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.4s" fill="freeze"/>35</text>
+	<text x="200" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.5s" fill="freeze"/>36</text>
+	<text x="175" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.6s" fill="freeze"/>37</text>
+	<text x="175" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.7s" fill="freeze"/>38</text>
+	<text x="175" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.8s" fill="freeze"/>39</text>
+	<text x="175" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="10.9s" fill="freeze"/>40</text>
+	<text x="175" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="11s" fill="freeze"/>41</text>
+	<text x="175" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.1s" fill="freeze"/>42</text>
+	<text x="175" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.2s" fill="freeze"/>43</text>
+	<text x="200" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.3s" fill="freeze"/>44</text>
+	<text x="225" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.4s" fill="freeze"/>45</text>
+	<text x="250" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.5s" fill="freeze"/>46</text>
+	<text x="275" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.6s" fill="freeze"/>47</text>
+	<text x="300" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.7s" fill="freeze"/>48</text>
+	<text x="325" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.8s" fill="freeze"/>49</text>
+	<text x="350" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.9s" fill="freeze"/>50</text>
+	
+	<text x="350" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="11.95s" fill="freeze"/>51</text>
+	<text x="350" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="12s" fill="freeze"/>52</text>
+	<text x="350" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.05s" fill="freeze"/>53</text>
+	<text x="350" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.1s" fill="freeze"/>54</text>
+	<text x="350" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.15s" fill="freeze"/>55</text>
+	<text x="350" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.2s" fill="freeze"/>56</text>
+	<text x="350" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.25s" fill="freeze"/>57</text>
+	<text x="325" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.3s" fill="freeze"/>58</text>
+	<text x="300" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.35s" fill="freeze"/>59</text>
+	<text x="275" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.4s" fill="freeze"/>60</text>   
+	<text x="250" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.45s" fill="freeze"/>61</text>
+	<text x="225" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.5s" fill="freeze"/>62</text>
+	<text x="200" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.55s" fill="freeze"/>63</text>
+	<text x="175" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.6s" fill="freeze"/>64</text>
+	<text x="150" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.65s" fill="freeze"/>65</text>
+	<text x="150" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.7s" fill="freeze"/>66</text>
+	<text x="150" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.75s" fill="freeze"/>67</text>
+	<text x="150" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.8s" fill="freeze"/>68</text>
+	<text x="150" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.85s" fill="freeze"/>69</text>
+	<text x="150" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.9s" fill="frEeze"/>70</text> 
+	<text x="150" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="12.95s" fill="freeze"/>71</text>
+	<text x="150" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="13s" fill="freeze"/>72</text>
+	<text x="150" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.05s" fill="freeze"/>73</text>
+	<text x="175" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.1s" fill="freeze"/>74</text>
+	<text x="200" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.15s" fill="freeze"/>75</text>
+	<text x="225" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.2s" fill="freeze"/>76</text>
+	<text x="250" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.25s" fill="freeze"/>77</text>
+	<text x="275" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.3s" fill="freeze"/>78</text>
+	<text x="300" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.35s" fill="freeze"/>79</text>
+	<text x="325" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.4s" fill="freeze"/>80</text>
+	<text x="350" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.45s" fill="freeze"/>81</text>
+	<text x="375" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.5s" fill="freeze"/>82</text>
+ 	
+	<text x="375" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.51s" fill="freeze"/>83</text>
+	<text x="375" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.52s" fill="freeze"/>84</text>
+	<text x="375" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.53s" fill="freeze"/>85</text>
+	<text x="375" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.54s" fill="freeze"/>86</text>
+	<text x="375" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.55s" fill="freeze"/>87</text>
+	<text x="375" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.56s" fill="freeze"/>88</text>
+	<text x="375" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.57s" fill="freeze"/>89</text>
+	<text x="375" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.58s" fill="freeze"/>90</text> 
+	<text x="375" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.59s" fill="freeze"/>91</text>
+	<text x="350" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.60s" fill="freeze"/>92</text>
+	<text x="325" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.61s" fill="freeze"/>93</text>
+	<text x="300" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.62s" fill="freeze"/>94</text>
+	<text x="275" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.63s" fill="freeze"/>95</text>
+	<text x="250" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.64s" fill="freeze"/>96</text>
+	<text x="225" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.65s" fill="freeze"/>97</text>
+	<text x="200" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.66s" fill="freeze"/>98</text>
+	<text x="175" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.67s" fill="freeze"/>99</text>
+	<text x="150" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.68s" fill="freeze"/>100</text> 
+	<text x="125" y="125" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.69s" fill="freeze"/>101</text>
+	<text x="125" y="150" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.7s" fill="freeze"/>102</text>
+	<text x="125" y="175" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.71s" fill="freeze"/>103</text>
+	<text x="125" y="200" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.72s" fill="freeze"/>104</text>
+	<text x="125" y="225" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.73s" fill="freeze"/>105</text>
+	<text x="125" y="250" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.74s" fill="freeze"/>106</text>
+	<text x="125" y="275" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.75s" fill="freeze"/>107</text>
+	<text x="125" y="300" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.76s" fill="freeze"/>108</text>
+	<text x="125" y="325" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.77s" fill="freeze"/>109</text>
+	<text x="125" y="350" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.78s" fill="freeze"/>110</text>
+	<text x="125" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.79s" fill="freeze"/>111</text> 
+	<text x="150" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.80s" fill="freeze"/>112</text>
+	<text x="175" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.81s" fill="freeze"/>113</text>
+	<text x="200" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.82s" fill="freeze"/>114</text>
+	<text x="225" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.83s" fill="freeze"/>115</text>
+	<text x="250" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.84s" fill="freeze"/>116</text>
+	<text x="275" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.85s" fill="freeze"/>117</text>
+	<text x="300" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.86s" fill="freeze"/>118</text>
+	<text x="325" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.87s" fill="freeze"/>119</text>
+	<text x="350" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.88s" fill="freeze"/>120</text>
+	<text x="375" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.89s" fill="freeze"/>121</text> 
+	<text id="number" x="375" y="375" visibility="hidden"><set attributeName="visibility" to="visible" begin="13.89s" fill="freeze"/>121</text> 
+	<use xlink:href="#number" transform="3"/>
+</g>
+
+</svg>

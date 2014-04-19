@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="400px" 
+	height="260px" 
+	version="1.1">
+  
+<style type="text/css">
+
+</style>
+
+<g transform="translate(-100,0)">
+
+<text x="190" y="255" style="font-size:12pt;fill:white;font-family:sans-serif;">Click on rings to see multiplication</text> 
+   
+ <g>
+	<text x="130" y="40" style="font-size:20pt;fill:white;font-family:sans-serif;">A</text>
+	<text x="460" y="40" style="font-size:20pt;fill:white;font-family:sans-serif;">B</text>
+</g>
+
+<g>
+	<circle cx="6.5cm" cy="2cm" r="75" fill="red" style="stroke:black; stroke-width:0.2cm" transform="translate(0,50)" >
+		 <animate attributeName="fill" from="red" to="white" begin="boolean_box.click" dur="2s" fill="freeze" />
+	</circle>
+	<circle cx="6.5cm" cy="2cm" r="75" fill="blue" style="stroke:black; stroke-width:0.2cm" transform="translate(100,50)" >
+			 <animate attributeName="fill" from="blue" to="white" begin="boolean_box.click" dur="2s" fill="freeze" />
+	</circle>
+</g>
+
+<g stroke = "purple" stroke-width = "3" fill = "purple">
+<path d="M295 78
+		a 90 75, 0, 0, 1, 0 95
+		Z"/>
+	<path d="M295 78
+    	a 90 75, 0, 0, 0, 0 95
+    	Z"/>
+</g>
+
+<rect id="boolean_box" x="0" y="0" width="500" height="250"
+   style="fill:white;stroke:none;stroke-width:5;fill-opacity:0;
+   stroke-opacity:0.9" z-index="1"/>
+</g>
+</svg>

@@ -1,0 +1,305 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../svgstyle.css" ?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+width="450px" height="360px" viewBox="0 0 450 350" version="1.1">
+  
+<style type="text/css"><![CDATA[
+	text
+		{
+		font-family:geneva, sans-serif;
+		fill: white
+		}
+  		
+	.svgtitle
+		{
+		font-variant:small-caps;
+		fill:black;
+		font-weight:bold;
+		font-size:1.5em;
+		}
+	
+	.red
+		{
+		fill:red
+		}
+		
+	.blue
+		{
+		fill:#1252DD
+		}
+    ]]></style>
+
+<!--definitions-->
+<defs>
+</defs>
+
+<!--canvas-->
+<rect x="5" y="5" width="450" height="290"
+   style="fill:#6789BD" />
+
+<!--caption-->
+<rect x="50" y="300" width="350" height="40"
+	style="fill:gray" />
+
+<!--title-->
+<text class="svgtitle" x="230" y="328" text-anchor="middle">Creating the Key Part III</text>
+
+<g transform="translate(5,0)">
+
+	<!--Ana and Bob circles-->
+	<g transform="translate(-10,-60)">
+	<g id="Ana" opacity="0" >
+		<circle cx="100" cy="110" r="30" style="fill:red; stroke:black; stroke-width:0.1cm"/>
+		<text x="100" y="115" text-anchor="middle">Ana</text>
+		<animate attributeType="CSS"
+			attributeName="opacity"
+			from="0" to="1" begin="fig1.click" dur="1" fill="freeze" />
+	</g>
+	<g id="Bob" opacity="0">
+		<circle cx="320" cy="110" r="30" style="fill:#1252DD; stroke:black; stroke-width:0.1cm" />
+		<text x="320" y="115" text-anchor="middle">Bob</text>
+		<animate attributeType="CSS"
+			attributeName="opacity"
+			from="0" to="1" begin="fig1.click" dur="1" fill="freeze" />
+	</g>
+	</g>
+
+	<!--Set Text-->
+	<g transform="translate(-10,-50)">
+	<g id="Everyonetext1.2" opacity="0">
+		<text x="175" y="80">a = 2</text>
+		<text x="235" y="80">p = 11</text>	
+			<animate attributeType="CSS"
+			attributeName="opacity"
+			from="0" to="1" begin="fig1.click" dur="1" fill="freeze" />
+	</g>
+
+	<g transform="translate(0,-10)">
+	<g id="Anatext1.1" opacity="0" >
+		<text x="140" y="110" >x = 3</text>
+			<animate attributeType="CSS"
+			attributeName="opacity"
+			from="0" to="1" begin="fig1.click" dur="1" fill="freeze" />
+	</g>
+
+	<g id="Bobtext1.1" opacity="0">
+		<text x="360" y="110" >y = 5</text>
+			<animate attributeType="CSS"
+			attributeName="opacity"
+			from="0" to="1" begin="fig1.click" dur="1" fill="freeze" />
+	</g>
+	</g>
+	</g>
+
+	<!--Ana-->
+	<!--narration-->
+	<g transform="translate(-20,35)">
+	<g id="Anatext1" >
+		<text x="30" y="125" >Ana finds the common key</text>
+		<rect x="29" y="110" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+2" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g id="Anatext2" >
+		<text x="30" y="145" >by raising big Y, 10</text>
+		<rect x="29" y="130" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 450,0"
+				begin="fig1.click+4" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g id="Anatext3" >
+		<text x="30" y="165">to her little x, 3.</text>
+		<rect x="29" y="150" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+6" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g id="Anatext4">
+		<text x="30" y="185" >Then she takes the modulo</text>
+		<rect x="29" y="170" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+8" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g id="Anatext5">
+		<text x="30" y="205" >with the public prime, 11.</text>
+		<rect x="29" y="190" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+9" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	</g>
+
+	<!--algebra-->
+	<g transform="translate(0,-15)">
+	<g>
+		<text x="65" y="115">Y^x = 10^3 mod 11</text>
+		<rect x="64" y="100" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 11,0"
+				begin="fig1.click+4" dur="0.5" fill="freeze" />
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="11,0; 30,0"
+				begin="fig1.click+6" dur="0.5" fill="freeze" />
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="25,0; 200,0"
+				begin="fig1.click+10" dur="1" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="65" y="135">Y^x = 1000 mod 11</text>
+		<rect x="64" y="120" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 140,0"
+				begin="fig1.click+12" dur="0.5" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="65" y="155">Y^x = 10</text>
+		<rect x="64" y="140" width="400" height="20" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 100,0"
+				begin="fig1.click+14" dur="0.5" fill="freeze" />
+		</rect>
+	</g>
+	</g>
+
+
+	<!--Bob-->
+	<!--narration-->
+	<g transform="translate(175,35)">
+	<g>
+		<text x="50" y="125" >Bob finds the common key</text>
+		<rect x="49" y="110" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+16" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="50" y="145" >by raising big X, 8</text>
+		<rect x="49" y="130" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+18" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="50" y="165">to his little y, 5.</text>
+		<rect x="49" y="150" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+20" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="50" y="185" >Then he takes the modulo</text>
+		<rect x="49" y="170" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+22" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="50" y="205" >with the public prime, 11.</text>
+		<rect x="49" y="190" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+23" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	</g>
+
+	<!--algebra-->
+	<g transform="translate(170,-15)">
+	<g>
+		<text x="65" y="115">X^y = 8^5 mod 11</text>
+		<rect x="64" y="100" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 11,0"
+				begin="fig1.click+18" dur="0.5" fill="freeze" />
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="11,0; 30,0"
+				begin="fig1.click+20" dur="0.5" fill="freeze" />
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="25,0; 200,0"
+				begin="fig1.click+22" dur="1" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="65" y="135">X^y = 32768 mod 11</text>
+		<rect x="64" y="120" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 170,0"
+				begin="fig1.click+24" dur="1" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="65" y="155">X^y = 10</text>
+		<rect x="64" y="140" width="400" height="20" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 100,0"
+				begin="fig1.click+26" dur="0.5" fill="freeze" />
+		</rect>
+	</g>
+	</g>
+
+	<!--Final Result-->
+	<g>
+		<text x="50" y="260" class="red">Only Ana and Bob know the common key is 10.</text>
+		<rect x="50" y="245" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+28" dur="2" fill="freeze" />
+		</rect>
+	</g>
+	<g>
+		<text x="120" y="280" class="blue">Now they can talk securely.</text>
+		<rect x="120" y="265" width="400" height="25" fill="#6789BD">
+			<animateTransform attributeType="XML"
+				attributeName="transform" type="translate"
+				values="0,0; 400,0"
+				begin="fig1.click+30" dur="2" fill="freeze" />
+		</rect>
+	</g>
+</g> <!-- /transform -->
+
+<!--canvas click listener-->
+<rect id="fig1" x="5" y="5" width="390" height="300"
+   style="fill:#0D58A6;stroke:white;stroke-width:5;
+   stroke-opacity:0.9;opacity:0"/>
+
+<!--canvas border-->
+<rect x="5" y="5" width="442" height="290"
+   style="fill:none;stroke:white;stroke-width:7" /> 
+   
+</svg>

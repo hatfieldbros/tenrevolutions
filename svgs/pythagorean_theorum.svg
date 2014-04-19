@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+	
+<svg xmlns="http://www.w3.org/2000/svg" 
+	width="400px" 
+	height="400px"
+	viewBox="0 0 1500 1000"
+	version="1.1">
+	
+<g id="title">
+
+<text font-family="serif" font-size="85" x="300" y="1800" stroke="red" fill="red">
+  Pythagorean Theorem
+</text>
+</g>
+
+<g id="Pythagoras" transform="translate(700,300) rotate(-53)">
+
+<!-- 1st stage of animation -trianlge moving -->
+
+<!-- side 5 square excluding moving triangle -->
+ <path id="Square5A" d="M-300 0 L0 400 -400 700 -400 300 -700 300 z" fill="green" stroke="none">
+<animate id="Square5AColor" attributeName="fill" begin="para4MovingA.begin" dur="10s" repeatCount="1" fill="freeze"
+keyTimes="0;1" 
+values="#333333;#333333" />
+</path>
+
+<!-- moving triangle -->
+ <path id="Square5BTriangle" d="M-400 700 L-400 300 -700 300 z" fill="green" stroke="none">
+<animate id="triangleMove" attributeName="d" begin="1s" dur="3s" repeatCount="1" fill="freeze"
+values=
+ "M-400 700 L-400 300 -700 300 z;
+M0 400 L0 0 -300 0 z" /> 
+<animate id="triangleColorChange" attributeName="fill" begin="1s" dur="3s" repeatCount="1" fill="freeze"
+keyTimes="0;0.1;0.9;1" 
+values="green;lime;lime;green" />
+<animate id="Square5BTriangleColor" attributeName="fill" begin="para4MovingA.begin" dur="10s" repeatCount="1" fill="freeze"
+keyTimes="0;1" 
+values="#333333;#333333" />
+</path>
+
+<!-- 2nd stage of animation -2 parallelograms moving -->
+
+<path id="parallel4" fill="green" stroke="none">
+<animate id="para4MovingA" attributeName="d" 
+begin="triangleMove.end+1" dur="10s" fill="freeze"
+keyTimes="0;0.4;0.6;1" 
+values=
+"M0 0 L0 400 -400 700 -400 300 z;
+M400 -300 L400 100 0 400 0 0 z;
+M400 -300 L400 100 0 400 0 0 z;
+M400 0 L400 400 0 400 0 0 z"/>
+</path>
+<path id="parallel3" fill="green" stroke="none">
+<animate id="para4MovingB" attributeName="d" 
+begin="triangleMove.end+1" 
+dur="10s" fill="freeze"
+keyTimes="0;0.4;0.6;1"
+values=
+"M0 0 L-300 0 -700 300 -400 300 z;
+M400 -300 L100 -300 -300 0 0 0 z;
+M400 -300 L100 -300 -300 0 0 0 z;
+M0 -300 -300 -300 -300 0 0 0 z"/>
+</path>
+
+
+<!-- Square5,4,3 are the fixture. They are not moving parts -->
+ <path id="Square5" d="M-300 0 L0 400 -400 700 -700 300 z" fill="none" stroke="black" stroke-width="2">
+<animate id="Square5ColorChange" attributeName="fill" 
+begin="para4MovingA.end" dur="2s" fill="freeze"
+keyTimes="0;0.25;0.75;1" 
+values="lime;green;lime;green" />
+</path>
+ <path id="Square4" d="M0 0 L0 400 400 400 400 0 z" fill="none" stroke="black" stroke-width="2">
+<animate id="Square5ColorChange" attributeName="fill" 
+begin="para4MovingB.end" dur="2s" fill="freeze"
+keyTimes="0;0.5;0.75;1" 
+values="lime;green;lime;green" />
+</path>
+ <path id="Square3" d="M-300 0 L0 0 0 -300 -300 -300 z" fill="none" stroke="black" stroke-width="2">
+<animate id="Square5ColorChange" attributeName="fill" 
+begin="para4MovingB.end" dur="2s" fill="freeze"
+keyTimes="0;0.5;0.75;1.0" 
+values="lime;green;lime;green" />
+</path>
+
+</g>
+</svg>
