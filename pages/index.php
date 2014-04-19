@@ -17,7 +17,7 @@
 <h1><img src="../images/ten_math_revolutions/ten_math_revolutions3small.gif" alt="Ten Math Revolutions"/></h1>
 
 <div id="intro">
-<h2>(Optimized for Firefox)</h2>
+<h2>(Modern browsers only)</h2>
 <p>Although math may not seem revolutionary, look back over its history and you will find controversies and discoveries that changed the way we understand our world. Mathematical principles have always existed, but to us they are revelations. Hopefully you will think differently after you take a look through this website. Don't be surprised if a new idea feels revolutionary.</p>
 </div>
 
