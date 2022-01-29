@@ -10,7 +10,7 @@
 <body id="fourpage">
 <div id="page">
 <div id="header">
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/subnav.php") ?>
 </div>
 <br class="clearme" />
 
@@ -53,7 +53,7 @@
 </div>
 
 <div id="footer">
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/subnav.php") ?>
 </div>
 </div>
 </body>

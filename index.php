@@ -4,14 +4,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Ten Revolutions - Home</title>
-	<?php include("../includes/htmlhead.php"); ?>
+	<?php include("includes/htmlhead.php"); ?>
 </head>
 
 <body id="homepage">
 <div id="page">
 
 <div id="header">
-<?php include("../includes/navhome.php"); ?>
+<?php include("includes/nav.php"); ?>
 </div>
 
 <h1><img src="../images/ten_math_revolutions/ten_math_revolutions3small.gif" alt="Ten Math Revolutions"/></h1>
@@ -22,7 +22,7 @@
 </div>
 
 <div id="footer">
-	<?php include("../includes/navhome.php"); ?>
+	<?php include("includes/nav.php"); ?>
 </div>
 
 </div>

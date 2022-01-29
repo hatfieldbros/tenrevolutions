@@ -9,7 +9,7 @@
 <body id="fivepage">
 <div id="page">
 <div id="header">
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/subnav.php") ?>
 </div>
 <br class="clearme" />
 
@@ -296,7 +296,7 @@ At this point we have a solution of x = 0. After we factor we find two solutions
 </div>
 
 <div id="footer">
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/subnav.php") ?>
 </div>
 </div>
 </body>

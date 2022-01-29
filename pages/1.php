@@ -10,7 +10,7 @@
 <body id="onepage">
 <div id="page">
 <div id="header">
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/subnav.php"); ?>
 </div>
 <br class="clearme" />
 
@@ -44,7 +44,7 @@
 		</mfrac>
 </math>
 
-<p>As we use this expression and find the values of the curvature of different vertices, we see that end nodes on trees equal 
+<p>As we use this expression and find the values of the curvature of different vertices, we see that end nodes on trees equal
 <math class="noblock" xmlns='http://www.w3.org/1998/Math/MathML'>
 	<mo>-</mo>
 	<mfrac>
@@ -74,7 +74,7 @@
 
 <br class="clearme" />
 <div id="footer">
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/subnav.php") ?>
 </div>
 </div>
 </body>

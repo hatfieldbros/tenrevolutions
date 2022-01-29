@@ -8,7 +8,7 @@
 <body id="threepage">
 <div id="page">
 <div id="header">
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/subnav.php") ?>
 </div>
 
 <br class="clearme" />
@@ -35,7 +35,7 @@
 
 <br class="clearme" />
 <div id="footer">
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/subnav.php") ?>
 </div>
 </div>
 </body>
