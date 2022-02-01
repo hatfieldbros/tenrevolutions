@@ -1,3 +1,8 @@
+#Force https!
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,N]
+
 #custom errors
 ErrorDocument 404 /tenrevolutions/404.php
 

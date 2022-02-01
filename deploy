@@ -74,11 +74,11 @@ then
   if [[ -z $2 ]]
   then
     echo "Staging Deploy: DRY RUN"
-    rsync --dry-run --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/math
+    rsync --dry-run --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/math/
   elif [[ "$2" == "go" ]]
   then
     echo "Live Deploy: REAL"
-    rsync --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/math
+    rsync --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/math/
   else
     echo "$ERRORSTRING";
   fi
