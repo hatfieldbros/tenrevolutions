@@ -1,0 +1,86 @@
+#!/bin/bash
+
+SERVERPORT="2520"
+
+ERRORSTRING="Whoops! That didn't work. Please check the command you ran."
+if [ $# -eq 0 ]
+then
+  echo "$ERRORSTRING";
+
+elif [[ "$1" == "sync" ]]
+then
+  if [[ -z $2 ]]
+  then
+    echo "Live Content Sync: DRY RUN"
+    # rsync --dry-run -azLK --force --delete --progress --exclude-from=.rsyncignore -e "ssh -p$SERVERPORT" meetmainsys@70.32.95.114:/var/www/vhosts/meetmainsouth.org/httpdocs/ ./public/
+    rsync --dry-run --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore hatfieldbros@deploy.us1.frbit.com:~/live/content ./
+  elif [[ "$2" == "go" ]]
+  then
+    echo "Live Content Sync: REAL"
+    # rsync -azLK --force --delete --progress --exclude-from=.rsyncignore -e "ssh -p$SERVERPORT" meetmainsys@70.32.95.114:/var/www/vhosts/meetmainsouth.org/httpdocs/ ./public/
+    rsync --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore hatfieldbros@deploy.us1.frbit.com:~/live/content ./
+  else
+    echo "$ERRORSTRING";
+  fi
+
+# elif [[ "$1" == "accounts" ]]
+# then
+#   if [[ -z $2 ]]
+#   then
+#     echo "Live Accounts Sync: DRY RUN"
+#     # rsync --dry-run -azLK --force --delete --progress --exclude-from=.rsyncignore -e "ssh -p$SERVERPORT" meetmainsys@70.32.95.114:/var/www/vhosts/meetmainsouth.org/httpdocs/ ./public/
+#     rsync --dry-run -azLK --force --delete --progress -e mylittlebakery@deploy.us1.frbit.com:~/live/site/accounts ./site/accounts
+#   elif [[ "$2" == "go" ]]
+#   then
+#     echo "Live Accounts Sync: REAL"
+#     # rsync -azLK --force --delete --progress --exclude-from=.rsyncignore -e "ssh -p$SERVERPORT" meetmainsys@70.32.95.114:/var/www/vhosts/meetmainsouth.org/httpdocs/ ./public/
+#     rsync -azLK --force --delete --progress -e mylittlebakery@deploy.us1.frbit.com:~/live/site/accounts ./site/accounts
+#   else
+#     echo "$ERRORSTRING";
+#   fi
+
+elif [[ "$1" == "staging" ]]
+then
+  if [[ -z $2 ]]
+  then
+    echo "Staging Deploy: DRY RUN"
+    # rsync --dry-run -azLK --force --delete --progress --exclude-from=.rsyncignore -e "ssh -p$SERVERPORT" ./public/ vdsys@70.32.95.114:/var/www/vhosts/visualdialogue.com/meetmainsouth.visualdialogue.com/
+    rsync --dry-run --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/staging
+  elif [[ "$2" == "go" ]]
+  then
+    echo "Staging Deploy: REAL"
+    # rsync -azLK --force --delete --progress --exclude-from=.rsyncignore -e "ssh -p$SERVERPORT" ./public/ vdsys@70.32.95.114:/var/www/vhosts/visualdialogue.com/meetmainsouth.visualdialogue.com/
+    rsync --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/staging
+  else
+    echo "$ERRORSTRING";
+  fi
+
+elif [[ "$1" == "live" ]]
+then
+  if [[ -z $2 ]]
+  then
+    echo "Staging Deploy: DRY RUN"
+    rsync --dry-run --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/live
+  elif [[ "$2" == "go" ]]
+  then
+    echo "Live Deploy: REAL"
+    rsync --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/live
+  else
+    echo "$ERRORSTRING";
+  fi
+
+elif [[ "$1" == "math" ]]
+then
+  if [[ -z $2 ]]
+  then
+    echo "Staging Deploy: DRY RUN"
+    rsync --dry-run --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/math
+  elif [[ "$2" == "go" ]]
+  then
+    echo "Live Deploy: REAL"
+    rsync --itemize-changes --force --recursive --ignore-times --group --owner --checksum --compress --delete --progress --exclude-from=.rsyncignore ./ hatfieldbros@deploy.us1.frbit.com:~/math
+  else
+    echo "$ERRORSTRING";
+  fi
+
+fi
